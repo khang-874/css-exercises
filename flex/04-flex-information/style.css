@@ -25,22 +25,22 @@ img {
   background: #eee;
 }
 
-.container{
-  display: flex; 
-  flex-direction: column;
-  align-items: center;
+body{
+  text-align: center;
 }
 
-.plant{
-  display:flex;
+.container{
+  display: flex; 
+  justify-content: center;
   gap: 52px;
   margin-top: 32px;
 }
 
+
 .description{
   display:flex;
   flex-direction: column;
-  width: 200px;
+  max-width: 200px;
   align-items: center;
   text-align: center; 
 }
