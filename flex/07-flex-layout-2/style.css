@@ -63,6 +63,27 @@ body{
 }
 
 .content{
-  flex: 1 0 auto;
+  flex: 1;
+  display: flex;
 }
 
+.sidebar{
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+li{
+  font-size: 24px;
+}
+
+.card-container{
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  margin: 16px;
+  padding: 10px;
+  width: 300px;
+}
